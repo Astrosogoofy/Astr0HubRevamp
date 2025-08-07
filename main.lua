@@ -100,6 +100,7 @@ local Supported = {
     [286090429] = "Arsenal",
     [2753915549] = "Bloxfruits",
     [13772394625] = "Blade Ball",
+    [11605035507] = "The Strongest Battlegrounds",
 }
 
 -- Game Tab Generator
@@ -115,6 +116,20 @@ end
 
 -- Game-Specific Logic
 local id = game.PlaceId
+
+elseif Supported[id] == "The Strongest Battlegrounds" then
+    createGameTab("Strongest BG", nil, {
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scripts-Roblox/refs/heads/main/XDevHubBeta.lua"))()
+
+        {
+            name = "Load Script Example",
+            callback = function()
+               
+                notify("Strongest BG", "Script loaded.")
+            end
+        }
+    })
+
 
 if Supported[id] == "Forsaken" then
     createGameTab("Forsaken", nil, {
@@ -214,3 +229,4 @@ else
         }
     })
 end
+
