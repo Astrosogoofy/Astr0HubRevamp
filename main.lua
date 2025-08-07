@@ -117,19 +117,17 @@ end
 -- Game-Specific Logic
 local id = game.PlaceId
 
+-- Then below, in the logic area:
 elseif Supported[id] == "The Strongest Battlegrounds" then
     createGameTab("Strongest BG", nil, {
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scripts-Roblox/refs/heads/main/XDevHubBeta.lua"))()
-
         {
-            name = "Load Script Example",
+            name = "Load DevHub",
             callback = function()
-               
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scripts-Roblox/refs/heads/main/XDevHubBeta.lua"))()
                 notify("Strongest BG", "Script loaded.")
             end
         }
     })
-
 
 if Supported[id] == "Forsaken" then
     createGameTab("Forsaken", nil, {
@@ -229,4 +227,5 @@ else
         }
     })
 end
+
 
