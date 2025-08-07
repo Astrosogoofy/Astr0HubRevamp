@@ -100,7 +100,7 @@ local Supported = {
     [286090429] = "Arsenal",
     [2753915549] = "Bloxfruits",
     [13772394625] = "Blade Ball",
-    [11605035507] = "The Strongest Battlegrounds",
+    [10449761463] = "The Strongest Battlegrounds",
 
 }
 
@@ -229,6 +229,7 @@ else
         }
     })
 end
+
 
 
 
