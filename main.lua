@@ -2,7 +2,7 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 -- Copy Discord Invite
-setclipboard("https://discord.gg/tykfEtde") -- updated Discord invite
+setclipboard("https://discord.gg/f5CUVuMU") -- updated Discord invite
 
 -- Helper: Notify
 local function notify(title, text)
@@ -214,6 +214,7 @@ else
         }
     })
 end
+
 
 
 
