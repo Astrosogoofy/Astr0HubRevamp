@@ -30,7 +30,7 @@ local Window = Rayfield:CreateWindow({
         FileName = "AstroHubKey",
         SaveKey = true,
         GrabKeyFromSite = false,
-        Key = { "Astroishungry122131twyehnfgrdfsaawad1223333344444" } -- Replace with your actual key
+        Key = { "DuckyIsHungryGDABhHDUJHhwudhuahijoomomom1122881536282917" } -- Replace with your actual key
     }
 })
 
@@ -206,3 +206,4 @@ if name then
 else
     Window:CreateTab("Unsupported Game", 4483362458)
 end
+
