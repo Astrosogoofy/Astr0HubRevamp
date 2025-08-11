@@ -2,7 +2,7 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 -- Copy Discord Invite to Clipboard
-setclipboard("https://discord.gg/f5CUVuMU") -- Replace with your invite
+setclipboard("https://discord.gg/qkbfCJ87SN") -- Replace with your invite
 game.StarterGui:SetCore("SendNotification", {
     Title = "Discord Copied",
     Text = "Join Discord for the key!",
@@ -206,4 +206,5 @@ if name then
 else
     Window:CreateTab("Unsupported Game", 4483362458)
 end
+
 
